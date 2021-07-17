@@ -32,6 +32,12 @@ namespace DataStructurePrograms
                     PrintCalender.Calender();
                     break;
 
+                case 3:
+                    Console.WriteLine("Enter the number : ");
+                    int n = Convert.ToInt32(Console.ReadLine());
+                    Console.Write("Number of structurally Unique BST with " + n + " keys are : " + UniqueBinarySearchTree.numberOfBinarySearchTree(n));
+                    break;
+
                 default:
                     break;
             }
