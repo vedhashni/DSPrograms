@@ -28,6 +28,10 @@ namespace DataStructurePrograms
                     }
                     break;
 
+                case 2:
+                    PrintCalender.Calender();
+                    break;
+
                 default:
                     break;
             }
