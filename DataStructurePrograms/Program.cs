@@ -38,6 +38,15 @@ namespace DataStructurePrograms
                     Console.Write("Number of structurally Unique BST with " + n + " keys are : " + UniqueBinarySearchTree.numberOfBinarySearchTree(n));
                     break;
 
+                case 4:
+                    BankingCashCounter banking = new BankingCashCounter();
+                    banking.MaintainQueue();
+                    break;
+
+                case 5:
+                    UnOrderedList.Unordered();
+                    break;
+
                 default:
                     break;
             }

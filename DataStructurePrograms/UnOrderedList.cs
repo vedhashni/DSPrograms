@@ -7,7 +7,7 @@ using System.IO;
 
 namespace DataStructurePrograms
 {
-    class UnOrderedList
+    public class UnOrderedList
     {
         public static void Unordered()
         {
