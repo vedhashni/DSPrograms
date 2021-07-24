@@ -47,6 +47,11 @@ namespace DataStructurePrograms
                     UnOrderedList.Unordered();
                     break;
 
+                case 6:
+                    PalindromeChecking<char> checker = new PalindromeChecking<char>();
+                    checker.IsPalindrome();
+                    break;
+
                 default:
                     break;
             }
